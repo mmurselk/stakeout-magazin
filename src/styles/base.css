@@ -26,7 +26,7 @@ code { font-family: ui-monospace, Menlo, monospace; font-size: 0.85em; backgroun
 .notice { color: var(--acid); background: rgba(180, 230, 29, 0.08); border-left: 3px solid var(--acid); padding: 0.6rem 0.8rem; border-radius: 4px; }
 
 /* Atmosphere: cold fog from above, blood-red glow below, slow rain, static grain */
-.atmosphere { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+.atmosphere { position: fixed; inset: 0; pointer-events: none; z-index: -1; overflow: hidden; }
 .atmosphere::before {
   content: ''; position: absolute; inset: 0;
   background:
